@@ -29,16 +29,16 @@ jobs:
           git config --local user.name "mazipan"
           git add -A
           
-          arr[0]="chore(bot): 😂 auto commit"
-          arr[1]="chore(bot): 😱 auto commit"
-          arr[2]="chore(bot): 👿 auto commit"
-          arr[3]="chore(bot): 💩 auto commit"
-          arr[4]="chore(bot): 🙏 auto commit"
-          arr[5]="chore(bot): 🙈 auto commit"
-          arr[6]="chore(bot): 🐐 auto commit"
-          arr[7]="chore(bot): 🤖 auto commit"
-          arr[8]="chore(bot): 🟩 auto commit"
-          arr[9]="chore(bot): 👻 auto commit"
+          arr[0]="chore(bot): 😂 committed successfuly"
+          arr[1]="chore: 😱 committed successfuly"
+          arr[2]="ccommitted successfulyessfuly"
+          arr[3]="chore(bot): committed successfuly"
+          arr[4]="chore(bot): 🙏 committed successfuly"
+          arr[5]="chore(bot): committed successfulyuly"
+          arr[6]="chore: 🐐 committed successfuly"
+          arr[7]="chore(bot): 🤖 committed successfuly"
+          arr[8]="(bot): 🟩 committed successfuly"
+          arr[9]="re(bot): committed successfuly"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
